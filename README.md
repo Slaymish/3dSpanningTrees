@@ -12,7 +12,7 @@ java 3dSpanningTrees/src/main/SpanningTrees.java
 ```
 ***
 
-Or run use the executable:
+Or run using the executable:
 
 **For mac**
 ```
