@@ -3,7 +3,7 @@
 
 ***
 
-<br><br><br>
+<br>
 
 Uses Kruskal's algorithm to find the Minimum Spanning Tree of a graph. 
 Loads graph from vertices and edges from OBJ file
@@ -32,6 +32,9 @@ cd 3dSpanningTrees
 chmod +x run.command
 ```
 Double click run.command
+
+<br>
+
 
 
 
