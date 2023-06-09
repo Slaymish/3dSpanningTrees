@@ -10,3 +10,16 @@ Outputs an OBJ
 git clone <this>
 java 3dSpanningTrees/src/main/SpanningTrees.java
 ```
+***
+
+Or run use the executable:
+
+**For mac**
+```
+chmod +x run.command
+```
+Double click run.command
+
+**For windows**
+
+Double click run.bat
