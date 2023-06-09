@@ -7,6 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="added runnables">
+      <change afterPath="$PROJECT_DIR$/src/main/Edge.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Graph.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SpanningTrees.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/UnionFind.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.command" beforeDir="false" afterPath="$PROJECT_DIR$/run.command" afterDir="false" />
     </list>
@@ -64,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686277157131</updated>
       <workItem from="1686277158364" duration="9107000" />
-      <workItem from="1686286805160" duration="2000" />
+      <workItem from="1686286805160" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686283940841</created>
@@ -101,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686286297861</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added runnables">
+      <created>1686286816657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686286816657</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
