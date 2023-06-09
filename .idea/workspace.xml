@@ -6,15 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="added runnables">
-      <change afterPath="$PROJECT_DIR$/Hello.class" afterDir="false" />
+    <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="Added Kruskell's algorithm and weight based on angle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/SpanningTrees/SpanningTrees.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpanningTrees/SpanningTrees.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpanningTrees/main/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpanningTrees/main/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpanningTrees/main/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpanningTrees/main/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SpanningTrees/main/SpanningTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SpanningTrees/main/SpanningTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/SpanningTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SpanningTrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SpanningTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SpanningTrees.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <workItem from="1686287064431" duration="10000" />
       <workItem from="1686287743110" duration="1312000" />
       <workItem from="1686318688914" duration="1118000" />
-      <workItem from="1686323386873" duration="1776000" />
+      <workItem from="1686323386873" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686283940841</created>
@@ -132,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686288455512</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added Kruskell's algorithm and weight based on angle">
+      <created>1686325202645</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686325202645</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +155,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="added runnables" />
-    <option name="LAST_COMMIT_MESSAGE" value="added runnables" />
+    <MESSAGE value="Added Kruskell's algorithm and weight based on angle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Kruskell's algorithm and weight based on angle" />
   </component>
 </project>
