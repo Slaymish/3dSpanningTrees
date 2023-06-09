@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/run.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.command" afterDir="false" />
+    <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="added runnables">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.command" beforeDir="false" afterPath="$PROJECT_DIR$/run.command" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686277157131</updated>
-      <workItem from="1686277158364" duration="9084000" />
+      <workItem from="1686277158364" duration="9107000" />
+      <workItem from="1686286805160" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686283940841</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686285581363</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added runnables">
+      <created>1686286297861</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686286297861</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="added runnables" />
+    <option name="LAST_COMMIT_MESSAGE" value="added runnables" />
   </component>
 </project>

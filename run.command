@@ -1,3 +1,5 @@
 #!/bin/bash
 cd "$(dirname "$0")"
-java src/main/SpanningTrees.java
+cd ../.. # navigate to the root of your project directory
+javac src/main/*.java
+java src/main/SpanningTrees
