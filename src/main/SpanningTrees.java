@@ -157,7 +157,25 @@ public class SpanningTrees {
      */
     private List<Edge> findMinimumSpanningTree(Graph graph) {
         System.out.println("Finding minimum spanning tree");
-        PriorityQueue<Edge> queue = new PriorityQueue<>(Comparator.comparingDouble(Edge::getWeight));
+
+        System.out.println("Enter 1 for distance (MST), 2 for angle");
+
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        PriorityQueue<Edge> queue;
+
+
+        if(i == 1) {
+            System.out.println("spanning tree based on distance (MST)");
+            queue = new PriorityQueue<>(Comparator.comparingDouble(Edge::getWeight1));
+
+        } else {
+            System.out.println("spanning tree based on angle of world origin");
+            queue = new PriorityQueue<>(Comparator.comparingDouble(Edge::getWeight2));
+
+        }
+
+
         queue.addAll(graph.getEdges());
         UnionFind uf = new UnionFind(graph.getNodes());
         List<Edge> mst = new ArrayList<>();
