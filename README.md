@@ -1,5 +1,5 @@
 # 3dSpanningTrees
-<p style="text-align: center;">Takes on .obj and returns the MST of it</p>
+<p style="text-align: center;">Takes an OBJ and returns the MST of it</p>
 
 ***
 
