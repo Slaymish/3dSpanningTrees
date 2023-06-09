@@ -16,7 +16,7 @@ Before exporting OBJ from blender, select the mesh in edit mode and 'delete only
 _If you don't have the java runtime installed, download it here: https://www.oracle.com/java/technologies/downloads/_
 
 ```
-git clone https://github.com/Slaymish/3dSpanningTrees/tree/master
+git clone https://github.com/Slaymish/3dSpanningTrees
 cd 3dSpanningTrees
 ```
 
