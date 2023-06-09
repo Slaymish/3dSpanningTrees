@@ -180,7 +180,7 @@ public class SpanningTrees {
     private void saveObjFile() {
         System.out.println("Saving file");
         JFileChooser fileChooser = new JFileChooser();
-        fileChooser.setDialogTitle("Save file");
+        fileChooser.setDialogTitle("Specify a file to save");
         fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
         FileNameExtensionFilter filter = new FileNameExtensionFilter("OBJ files", "obj");
         fileChooser.setFileFilter(filter);
@@ -195,15 +195,13 @@ public class SpanningTrees {
         }
         try {
             PrintWriter writer = new PrintWriter(new FileWriter(new File(filename)));
-            minimumSpanningTree.forEach(edge -> {
-                writer.println("v " + edge.getNode1().toString());
-                writer.println("v " + edge.getNode2().toString());
-                writer.println("l " + edge.getNode1().getId() + " " + edge.getNode2().getId());
-            });
+            nodes.forEach((id, node) -> writer.println("v " + node.toString()));
+            minimumSpanningTree.forEach(edge -> writer.println("l " + edge.getNode1().getId() + " " + edge.getNode2().getId()));
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
         System.out.println("Saved file to " + filename);
     }
+
 }

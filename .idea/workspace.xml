@@ -7,13 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ccd741-34bf-413a-859e-bed1d27f9913" name="Changes" comment="added runnables">
-      <change afterPath="$PROJECT_DIR$/src/main/Edge.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Graph.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/SpanningTrees.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/UnionFind.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.command" beforeDir="false" afterPath="$PROJECT_DIR$/run.command" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SpanningTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SpanningTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SpanningTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SpanningTrees.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +70,8 @@
       <updated>1686277157131</updated>
       <workItem from="1686277158364" duration="9107000" />
       <workItem from="1686286805160" duration="254000" />
+      <workItem from="1686287064431" duration="10000" />
+      <workItem from="1686287743110" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1686283940841</created>
@@ -113,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686286816657</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added runnables">
+      <created>1686287068604</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686287068604</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

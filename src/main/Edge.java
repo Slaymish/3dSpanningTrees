@@ -18,14 +18,10 @@ public class Edge {
     }
 
     public double getWeight() {
-        double spatialDistance = Math.sqrt(Math.pow(node1.getX() - node2.getX(), 2) +
-                Math.pow(node1.getY() - node2.getY(), 2) +
-                Math.pow(node1.getZ() - node2.getZ(), 2));
-
-        double zDiff = Math.abs(node1.getZ() - node2.getZ());
-        double zBias = 1 + (zDiff / spatialDistance);
-
-        return spatialDistance * zBias;
+        return Math.sqrt(
+                Math.pow(node1.getX() - node2.getX(), 2) +
+                        Math.pow(node1.getY() - node2.getY(), 2) +
+                        Math.pow(node1.getZ() - node2.getZ(), 2));
     }
 
 }
