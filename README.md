@@ -1,6 +1,9 @@
 # 3dSpanningTrees
 <p style="text-align: center;">Takes on .obj and returns the MST of it</p>
+
 ***
+
+<br><br><br>
 
 Uses Kruskal's algorithm to find the Minimum Spanning Tree of a graph. 
 Loads graph from vertices and edges from OBJ file
