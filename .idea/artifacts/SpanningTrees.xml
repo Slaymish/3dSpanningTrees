@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SpanningTrees">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpanningTrees</output-path>
+    <root id="archive" name="SpanningTrees.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$" />
+    </root>
+  </artifact>
+</component>
