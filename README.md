@@ -3,7 +3,7 @@ Takes on .obj and returns the MST of it
 
 Outputs an OBJ
 
-## Before exporting OBJ from blender, select the mesh in edit mode and 'delete only face' (as this only takes edges and verts)
+Before exporting OBJ from blender, select the mesh in edit mode and 'delete only face' (as this only takes edges and verts)
 
 
 ## Installation
