@@ -1,5 +1,10 @@
 # 3dSpanningTrees
+***
+
 Takes on .obj and returns the MST of it
+
+Uses Kruskell's algorithm to find the Minimum Spanning Tree of a graph. 
+Loads graph from vertices and edges from OBJ file
 
 Outputs an OBJ
 
@@ -8,19 +13,25 @@ Before exporting OBJ from blender, select the mesh in edit mode and 'delete only
 
 ## Installation
 
+_If you don't have the java runtime installed, download it here: https://www.oracle.com/java/technologies/downloads/_
+
 ```
-git clone <this>
-java 3dSpanningTrees/src/main/SpanningTrees.java
+git clone https://github.com/Slaymish/3dSpanningTrees/tree/master
+cd 3dSpanningTrees
 ```
+
 ***
 
-Or run using the executable:
+## Run using the executable:
 
 **For mac**
+
 ```
 chmod +x run.command
 ```
 Double click run.command
+
+
 
 **For windows**
 
