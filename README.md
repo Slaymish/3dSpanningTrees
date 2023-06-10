@@ -1,4 +1,4 @@
-# 3dSpanningTrees
+<h1 align="center">3dSpanningTrees</h1>
 <p align="center">Takes an OBJ file as input and returns the Minimum Spanning Tree (MST) of it</p>
 
 <p align="center">
