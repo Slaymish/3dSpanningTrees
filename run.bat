@@ -1,3 +1,7 @@
 @echo off
 cd %~dp0
-java src/main/SpanningTrees.java
+cd src\main
+javac *.java
+cd ..\..
+java -cp ./src main.SpanningTrees
+pause
