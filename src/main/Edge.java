@@ -4,6 +4,10 @@ public class Edge {
     private Node node1;
     private Node node2;
 
+    private static double xO;
+    private static double yO;
+    private static double zO;
+
     public Edge(Node node1, Node node2) {
         this.node1 = node1;
         this.node2 = node2;
@@ -36,20 +40,16 @@ public class Edge {
      * @param double
      */
     public double getWeight2() {
-        int xO = 0;
-        int yO = 0;
-        int zO = 0;
-
         // TODO: return distance from world coordinates
         // TODO: angle of constructed triange from points
 
-        int x1 = (int) node1.getX();
-        int y1 = (int) node1.getY();
-        int z1 = (int) node1.getZ();
+        double x1 = node1.getX();
+        double y1 = node1.getY();
+        double z1 = node1.getZ();
 
-        int x2 = (int) node2.getX();
-        int y2 = (int) node2.getY();
-        int z2 = (int) node2.getZ();
+        double x2 = node2.getX();
+        double y2 = node2.getY();
+        double z2 = node2.getZ();
 
 
         double dist01 = Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2) + Math.pow(z1-z2, 2));
@@ -59,6 +59,12 @@ public class Edge {
         double angle = Math.acos((Math.pow(dist02, 2) + Math.pow(dist12, 2) - Math.pow(dist01, 2)) / (2 * dist02 * dist12));
 
         return angle;
+    }
+
+    public static void setOrigin(double x, double y, double z) {
+        xO = x;
+        yO = y;
+        zO = z;
     }
 
 }

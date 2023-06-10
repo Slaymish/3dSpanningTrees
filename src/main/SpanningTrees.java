@@ -170,7 +170,17 @@ public class SpanningTrees {
             queue = new PriorityQueue<>(Comparator.comparingDouble(Edge::getWeight1));
 
         } else {
-            System.out.println("spanning tree based on angle of world origin");
+            System.out.println("Spanning tree based on angle of world origin");
+
+            System.out.println("Enter world origin (x y z)");
+
+            // set world origin in Edge class
+            double x = sc.nextDouble();
+            double y = sc.nextDouble();
+            double z = sc.nextDouble();
+
+            Edge.setOrigin(x, y, z);
+
             queue = new PriorityQueue<>(Comparator.comparingDouble(Edge::getWeight2));
 
         }
