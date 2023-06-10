@@ -1,49 +1,43 @@
 # 3dSpanningTrees
-<p style="text-align: center;">Takes an OBJ and returns the MST of it</p>
+<p align="center">Takes an OBJ file as input and returns the Minimum Spanning Tree (MST) of it</p>
 
-***
-![untitled](https://github.com/Slaymish/3dSpanningTrees/assets/21288505/3c9e87c3-d31d-4b37-8b8e-fd2ac10693fb)
+<p align="center">
+  <img src="https://github.com/Slaymish/3dSpanningTrees/assets/21288505/3c9e87c3-d31d-4b37-8b8e-fd2ac10693fb">
+</p>
 
+3dSpanningTrees uses Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a graph. The graph is loaded from vertices and edges contained in an OBJ file. 
 
-<br>
+The output is an OBJ file consisting of the MST of the input graph.
 
-Uses Kruskal's algorithm to find the Minimum Spanning Tree of a graph. 
-Loads graph from vertices and edges from OBJ file
+**Note:** When exporting the OBJ from Blender, select the mesh in edit mode and choose 'Delete Only Face'. This ensures that only edges and vertices are taken into account.
 
-Outputs an OBJ
+## Prerequisites
 
-Before exporting OBJ from blender, select the mesh in edit mode and 'delete only face' (as this only takes edges and verts)
-
+Before you begin, ensure you have the following installed:
+- [Java Runtime Environment](https://www.oracle.com/java/technologies/downloads/)
 
 ## Installation
 
-_If you don't have the java runtime installed, download it here: https://www.oracle.com/java/technologies/downloads/_
+Follow the steps below to get a copy of the project up and running on your local machine for development and testing purposes:
 
-```
+```bash
 git clone https://github.com/Slaymish/3dSpanningTrees
 cd 3dSpanningTrees
 ```
 
-### Or install the blender addon (MSTAdddon.py)
+Blender Addon Installation (MSTAdddon.py)
+The provided Blender addon allows you to generate MSTs directly in Blender. The 'Generate' button is located in the Tool tab of the right panel.
 
-This will let you make MST's directly in blender. Generate button located in the **Tool** tab in the right panel.
+## Usage
+You can run the application using the provided executables.
 
-***
-
-## Run using the executable:
-
-**For mac**
-
+**For MacOS**
+Run the following command to grant execute permissions to the script:
 ```
 chmod +x run.command
 ```
-Double click run.command
 
-<br>
+Then, double click run.command to run the application.
 
-
-
-
-**For windows**
-
-Double click run.bat
+**For Windows**
+Simply double click run.bat to run the application.
