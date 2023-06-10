@@ -9,7 +9,7 @@
 
 The output is an OBJ file consisting of the MST of the input graph.
 
-**Note:** When exporting the OBJ from Blender, select the mesh in edit mode and choose 'Delete Only Face'. This ensures that only edges and vertices are taken into account.
+**Note:** When exporting the OBJ from Blender, select the mesh in edit mode and choose 'Delete Only Faces'. This ensures that only edges and vertices are taken into account.
 
 ## Prerequisites
 
@@ -25,19 +25,21 @@ git clone https://github.com/Slaymish/3dSpanningTrees
 cd 3dSpanningTrees
 ```
 
-Blender Addon Installation (MSTAdddon.py)
+### Blender Addon Installation (MSTAdddon.py)
 The provided Blender addon allows you to generate MSTs directly in Blender. The 'Generate' button is located in the Tool tab of the right panel.
 
 ## Usage
 You can run the application using the provided executables.
 
 **For MacOS**
+
 Run the following command to grant execute permissions to the script:
 ```
 chmod +x run.command
 ```
 
-Then, double click run.command to run the application.
+Then, double click _run.command_ to run the application.
 
 **For Windows**
-Simply double click run.bat to run the application.
+
+Simply double click _run.bat_ to run the application.
