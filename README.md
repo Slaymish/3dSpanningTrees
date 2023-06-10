@@ -26,7 +26,7 @@ cd 3dSpanningTrees
 ```
 
 ### Blender Addon Installation
-If you've rather create them directly in Blender, download it from the **Lastest Releases**
+If you'd rather create them directly in Blender, download it from the **Lastest Releases**
 
 ## Usage
 You can run the application using the provided executables.
