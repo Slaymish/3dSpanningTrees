@@ -2,7 +2,8 @@
 <p style="text-align: center;">Takes an OBJ and returns the MST of it</p>
 
 ***
-![Uploading untitled.png…]()
+![untitled](https://github.com/Slaymish/3dSpanningTrees/assets/21288505/3c9e87c3-d31d-4b37-8b8e-fd2ac10693fb)
+
 
 <br>
 
