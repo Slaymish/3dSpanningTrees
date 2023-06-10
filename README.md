@@ -26,7 +26,7 @@ cd 3dSpanningTrees
 ```
 
 ### Blender Addon Installation (MSTAdddon.py)
-The provided Blender addon allows you to generate MSTs directly in Blender. The 'Generate' button is located in the Tool tab of the right panel.
+The provided Blender addon allows you to generate MSTs directly in Blender. The 'Generate' button is located in the Tool tab of the right panel. This is an alternative than having to run the java program.
 
 ## Usage
 You can run the application using the provided executables.
