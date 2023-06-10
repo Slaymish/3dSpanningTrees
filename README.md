@@ -26,7 +26,7 @@ cd 3dSpanningTrees
 
 ### Or install the blender addon (MSTAdddon.py)
 
-To will let you make MST's directly in blender. Generate button located in the **Tool** tab in the right panel.
+This will let you make MST's directly in blender. Generate button located in the **Tool** tab in the right panel.
 
 ***
 
