@@ -1,45 +1,28 @@
-<h1 align="center">3dSpanningTrees</h1>
-<p align="center">Takes an OBJ file as input and returns the Minimum Spanning Tree (MST) of it</p>
+# 3dSpanningTrees
 
-<p align="center">
-  <img src="https://github.com/Slaymish/3dSpanningTrees/assets/21288505/3c9e87c3-d31d-4b37-8b8e-fd2ac10693fb">
-</p>
+Takes an OBJ file and returns its minimum spanning tree. The graph comes from the vertices and edges in the file, Kruskal's algorithm finds the tree, and the result is written back out as OBJ.
 
-3dSpanningTrees uses Kruskal's algorithm to find the Minimum Spanning Tree (MST) of a graph. The graph is loaded from vertices and edges contained in an OBJ file. 
+Built for Blender work. Export a mesh with the faces deleted, run it through this, and you get the spanning structure as geometry to skin or extrude.
 
-The output is an OBJ file consisting of the MST of the input graph.
+![A spanning tree generated from a mesh](https://github.com/Slaymish/3dSpanningTrees/assets/21288505/3c9e87c3-d31d-4b37-8b8e-fd2ac10693fb)
 
-**Note:** When exporting the OBJ from Blender, select the mesh in edit mode and choose 'Delete Only Faces'. This ensures that only edges and vertices are taken into account.
+## Using it
 
-## Prerequisites
-
-Before you begin, ensure you have the following installed:
-- [Java Runtime Environment](https://www.oracle.com/java/technologies/downloads/)
-
-## Installation
-
-Follow the steps below to get a copy of the project up and running on your local machine for development and testing purposes:
+Grab the latest release, or run it from a checkout:
 
 ```bash
-git clone https://github.com/Slaymish/3dSpanningTrees
-cd 3dSpanningTrees
-```
-
-### Blender Addon Installation
-If you'd rather create them directly in Blender, download it from the **Lastest Releases**
-
-## Usage
-You can run the application using the provided executables.
-
-**For MacOS**
-
-Run the following command to grant execute permissions to the script:
-```
 chmod +x run.command
+./run.command
 ```
 
-Then, double click _run.command_ to run the application.
+`run.command` compiles `src/main/*.java` with `javac` and runs `main.SpanningTrees`. It needs a Java runtime and a JDK, since it compiles on every run. `run.bat` is the Windows equivalent.
 
-**For Windows**
+From Blender, delete the faces first: enter edit mode, select the mesh, use Delete Only Faces. Otherwise the importer sees faces where it wants edges.
 
-Simply double click _run.bat_ to run the application.
+There is also a Blender add-on in the releases, for doing the same thing without leaving Blender.
+
+## State
+
+Written in June 2023 for a mesh processing idea and left alone since. The core is four small classes: `Graph`, `Edge`, `Node` and `UnionFind`. The compiled classes and the IntelliJ `out/` directory are committed from the last build, which I would take out of the repo if I picked it up again.
+
+MIT licensed.
